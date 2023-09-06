@@ -1,0 +1,130 @@
+/* style.css */
+body {
+    background-color: #f0f2f5;
+    /* Facebook background color */
+    font-family: Arial, sans-serif;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #1877f2;
+    /* Facebook blue */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    color: #fff;
+    /* White text */
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #e7f3ff;
+    /* Slightly lighter blue on hover */
+}
+
+.centered-text {
+    text-align: center;
+    padding: 20px;
+}
+
+h1.facebook-font {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    /* Font similar to Facebook */
+    font-size: 2.5rem;
+    color: #1877f2;
+    /* Facebook blue */
+}
+
+p {
+    font-size: 1.2rem;
+    color: #000;
+}
+
+/* Centered content for the Skills page */
+/* style.css */
+.centered-content {
+    text-align: center;
+    /* Center text horizontally */
+    max-width: 800px;
+    /* Set a maximum width for the content */
+    margin: 0 auto;
+    /* Center the content horizontally */
+    padding: 20px;
+    /* Add padding for spacing */
+    /* Add any additional styles for individual skills here */
+    .skills-list {
+            list-style: none;
+            padding: 0;
+            /* Remove default padding */
+        }
+}
+
+/* Footer styles */
+footer {
+    background-color: #f0f2f5;
+    /* Facebook background color for footer */
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #000;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 10px 0;
+    }
+
+    .centered-text {
+        padding: 10px;
+    }
+
+    h1.facebook-font {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+   /* style.css */
+   /* ... Your existing CSS styles ... */
+
+   /* Centered content */
+   .centered-content {
+       text-align: center;
+       /* Center text horizontally */
+       max-width: 800px;
+       /* Set a maximum width for the content */
+       margin: 0 auto;
+       /* Center the content horizontally */
+       padding: 20px;
+       /* Add padding for spacing */
+   }
+
+   /* Contact icons */
+   .contact-icons {
+       margin-top: 20px;
+   }
+
+   .contact-icons a {
+       display: block;
+       margin-bottom: 10px;
+       font-size: 1.2rem;
+       color: #1877f2;
+       /* Facebook blue */
+       text-decoration: none;
+   } /* Adjust other responsive styles as needed */
+}
